@@ -6,12 +6,11 @@ const todosList = document.getElementById("todos");
 
 userSubmit.addEventListener("click", addToDo);
 
-userEntry.addEventListener("keydown", function (e) 
-{
-  if (e.key === "Enter") 
-  {addToDo(e);}
-}
-);
+userEntry.addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+    addToDo(e);
+  }
+});
 
 function addToDo(e) {
   e.preventDefault();

@@ -1,10 +1,10 @@
 const userEntry = document.querySelector("#user-entry");
 
-const userSubmit = document.querySelector("#user-submit");
+const submit = document.querySelector("#submit");
 
 const todosList = document.getElementById("todos");
 
-userSubmit.addEventListener("click", addToDo);
+submit.addEventListener("click", addToDo);
 
 userEntry.addEventListener("keydown", function (e) {
   if (e.key === "Enter") {
